@@ -5,8 +5,6 @@ updates:
     directory: "/src/api"
     labels:
       - "dependabot :robot:"
-    reviewers:
-      - "xsalazar"
     schedule:
       interval: "daily"
 
@@ -15,8 +13,6 @@ updates:
     directory: "/src/rembg"
     labels:
       - "dependabot :robot:"
-    reviewers:
-      - "xsalazar"
     schedule:
       interval: "daily"
 
@@ -25,8 +21,6 @@ updates:
     directory: "/src/combiner"
     labels:
       - "dependabot :robot:"
-    reviewers:
-      - "xsalazar"
     schedule:
       interval: "daily"
 
@@ -35,7 +29,5 @@ updates:
     directory: "/"
     labels:
       - "dependabot :robot:"
-    reviewers:
-      - "xsalazar"
     schedule:
       interval: "daily"
