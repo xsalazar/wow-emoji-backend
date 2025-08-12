@@ -6,7 +6,7 @@ resource "aws_lambda_function" "api" {
   role          = aws_iam_role.instance.arn
   timeout       = 30  // seconds
   memory_size   = 512 // MB
-  runtime       = "nodejs20.x"
+  runtime       = "nodejs22.x"
 
   environment {
     variables = {
@@ -77,7 +77,7 @@ resource "aws_lambda_function" "combiner" {
   role          = aws_iam_role.instance.arn
   timeout       = 30  // seconds
   memory_size   = 512 // MB
-  runtime       = "nodejs20.x"
+  runtime       = "nodejs22.x"
 
   environment {
     variables = {
