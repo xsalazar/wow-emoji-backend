@@ -9,7 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.872.0",
+    "@aws-sdk/client-s3": "^3.873.0",
     "@aws-sdk/client-sqs": "^3.864.0",
     "sharp": "^0.34.3",
     "uuid": "^11.1.0"
