@@ -2,16 +2,11 @@
   "name": "wow-emoji-backend-api",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.884.0",
     "@aws-sdk/client-sqs": "^3.883.0",
     "sharp": "^0.34.3",
     "uuid": "^13.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

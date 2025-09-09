@@ -1,14 +1,14 @@
-const fs = require("fs");
-const { v4: uuidv4 } = require("uuid");
-const sharp = require("sharp");
-const {
+import { v4 as uuidv4 } from "uuid";
+import sharp from "sharp";
+import {
   GetObjectCommand,
   PutObjectCommand,
   S3Client,
-} = require("@aws-sdk/client-s3");
-const { DeleteMessageCommand, SQSClient } = require("@aws-sdk/client-sqs");
+} from "@aws-sdk/client-s3";
+import { DeleteMessageCommand, SQSClient } from "@aws-sdk/client-sqs";
+import * as fs from "fs";
 
-exports.handler = async (event, context) => {
+export const handler = async (event, context) => {
   console.log(JSON.stringify(event));
   const s3 = new S3Client();
   const sqs = new SQSClient();
