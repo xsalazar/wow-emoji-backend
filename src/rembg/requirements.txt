@@ -1,2 +1,2 @@
-boto3==1.40.32
+boto3==1.40.33
 rembg-aws-lambda==0.2.0
