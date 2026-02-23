@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.994.0",
-    "@aws-sdk/client-sqs": "^3.993.0",
+    "@aws-sdk/client-sqs": "^3.995.0",
     "sharp": "^0.34.5",
     "uuid": "^13.0.0"
   }
