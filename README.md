@@ -48,13 +48,13 @@ To get started:
 #### api
 
 ```bash
-cd src/api/ && npm init
+cd src/api/ && npm install
 ```
 
 #### combiner
 
 ```bash
-cd src/combiner/ && npm init
+cd src/combiner/ && npm install
 ```
 
 #### rembg
@@ -75,6 +75,6 @@ To get started:
 cd terraform/ && terraform init
 ```
 
-All infrastructure deployments are managed via GitHub Actions and the [`./.github/workflows/deploy_infrastructure.yml`](./.github/workflows/deploy_infrastructure.yml) workflow.
+All infrastructure deployments are managed via GitHub Actions and the [`./.github/workflows/deploy-infrastructure.yml`](./.github/workflows/deploy-infrastructure.yml) workflow.
 
 ![](./assets/architecture.svg)
