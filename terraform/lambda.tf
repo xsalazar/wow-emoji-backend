@@ -75,7 +75,7 @@ resource "aws_lambda_function" "combiner" {
   filename      = "${path.module}/dummy-node-lambda-package/lambda.zip" // Simple hello world application
   handler       = "index.handler"
   role          = aws_iam_role.instance.arn
-  timeout       = 60   // seconds
+  timeout       = 120  // seconds
   memory_size   = 1024 // MB
   runtime       = "nodejs24.x"
 
